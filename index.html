@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo 🌦</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🌍 Previsão do Tempo</h1>
+
+        <!-- Localização e busca manual -->
+        <div class="search-box">
+            <input type="text" id="city-input" placeholder="Digite a cidade...">
+            <button id="search-btn">🔍</button>
+        </div>
+
+        <!-- Informações do clima -->
+        <div class="weather-info">
+            <h2 id="city-name">Localizando...</h2>
+            <p id="temperature">🌡 Temperatura: --°C</p>
+            <p id="feels-like">🤔 Sensação térmica: --°C</p>
+            <p id="humidity">💧 Umidade: --%</p>
+            <p id="wind">💨 Vento: -- km/h</p>
+        </div>
+
+        <!-- Cidades próximas -->
+        <h3>Cidades Próximas</h3>
+        <div id="nearby-cities"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

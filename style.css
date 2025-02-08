@@ -1,0 +1,82 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Corpo da Página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(180deg, #6db9ef, #7ce7a3);
+    color: white;
+    text-align: center;
+    transition: background 0.5s ease;
+}
+
+/* Container Principal */
+.container {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Título */
+h1 {
+    margin-bottom: 10px;
+}
+
+/* Caixa de Busca */
+.search-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background: #ff9800;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #f57c00;
+}
+
+/* Informações do Clima */
+.weather-info p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+/* Cidades Próximas */
+#nearby-cities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.city-box {
+    background: rgba(255, 255, 255, 0.2);
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
